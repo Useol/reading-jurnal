@@ -1,0 +1,26 @@
+#back {position: fixed; top: 40px; left:60px; z-index: 6; font-size: 24px;}
+
+.book_in_title {margin:120px 0 0 0;text-align: center;padding: 40px 0;}
+.book_in_title img {display: block; margin:0 auto 30px; width: 100px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+.book_in_title h2 {font-family: 'pre_B'; font-size:28px; margin:0 0 20px 0; }
+.book_in_title p {font-family: 'pre_M'; font-size: 16px; margin:0 0 10px 0;}
+.book_in_title p span {font-family: 'pre_L'; margin:0 0 0 10px;}
+
+.book_in_content {text-align: center;}
+.book_in_content img {display: block; margin:30px auto 30px; }
+.book_in_content p {line-height: 22px; font-family: 'pre_L'; margin: 0 0 20px 0;}
+.book_in_content p i {margin-right: 10px; font-size: 14px; vertical-align: middle;}
+
+.book_in_content .note { padding: 20px;}
+
+@media screen and (max-width:767px){
+  #back {top: 20px; left: 16px;}
+  .book_in_title {margin:60px 0 0 0;}
+  .book_in_title h2 {font-size: 16px;}
+  .book_in_title p {font-size: 14px;}
+  section .inner {padding: 0 16px !important;}
+  .book_in_content img {width: 100%;}
+  .book_in_content p {position: relative; font-size: 14px; line-height: 20px; text-align: left; display: inline-block; width: 100%; padding: 0 0 0 10px; margin:0 0 14px 0;}
+  .book_in_content p i {position: absolute; top:4px; left: -12px; font-size: 12px;}
+}

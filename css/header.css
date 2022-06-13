@@ -1,0 +1,12 @@
+#header {position: fixed; top:0; left: 0; width:100%; padding: 20px 0; border-bottom: 1px solid #ddd; background: #fff; z-index: 5;}
+#header a {display: block; margin:0 auto; width: 140px; text-align: center;}
+#header a img {width: 100%;}
+#header a p {font-size: 12px; color: #777;}
+#go_top {display: block; width: 40px; height: 40px;position: fixed; bottom: 30px; right: -60px; z-index: 5; border-radius: 100%; background: #000; text-align: center;  transition: 2s;}
+#go_top i {color:#fff; font-size: 24px; line-height: 40px;}
+#go_top.on {right: 20px;}
+@media screen and (max-width:767px){
+  #header {padding: 10px 0;}
+  #header a {width: 100px;}
+  #go_top.in {right: 16px;}
+}
